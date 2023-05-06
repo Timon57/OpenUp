@@ -1,0 +1,12 @@
+F:\C#\OpenUp\OpenUp.Utility\bin\Debug\net7.0\OpenUp.Utility.deps.json
+F:\C#\OpenUp\OpenUp.Utility\bin\Debug\net7.0\OpenUp.Utility.dll
+F:\C#\OpenUp\OpenUp.Utility\bin\Debug\net7.0\OpenUp.Utility.pdb
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\OpenUp.Utility.csproj.AssemblyReference.cache
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\OpenUp.Utility.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\OpenUp.Utility.AssemblyInfoInputs.cache
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\OpenUp.Utility.AssemblyInfo.cs
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\OpenUp.Utility.csproj.CoreCompileInputs.cache
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\OpenUp.Utility.dll
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\refint\OpenUp.Utility.dll
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\OpenUp.Utility.pdb
+F:\C#\OpenUp\OpenUp.Utility\obj\Debug\net7.0\ref\OpenUp.Utility.dll

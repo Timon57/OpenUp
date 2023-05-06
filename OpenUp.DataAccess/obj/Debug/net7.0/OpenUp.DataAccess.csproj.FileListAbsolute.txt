@@ -1,0 +1,17 @@
+F:\C#\OpenUp\OpenUp.DataAccess\bin\Debug\net7.0\OpenUp.DataAccess.deps.json
+F:\C#\OpenUp\OpenUp.DataAccess\bin\Debug\net7.0\OpenUp.DataAccess.runtimeconfig.json
+F:\C#\OpenUp\OpenUp.DataAccess\bin\Debug\net7.0\OpenUp.DataAccess.dll
+F:\C#\OpenUp\OpenUp.DataAccess\bin\Debug\net7.0\OpenUp.DataAccess.pdb
+F:\C#\OpenUp\OpenUp.DataAccess\bin\Debug\net7.0\OpenUp.Models.dll
+F:\C#\OpenUp\OpenUp.DataAccess\bin\Debug\net7.0\OpenUp.Models.pdb
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.csproj.AssemblyReference.cache
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.AssemblyInfoInputs.cache
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.AssemblyInfo.cs
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.csproj.CoreCompileInputs.cache
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.csproj.CopyComplete
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.dll
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\refint\OpenUp.DataAccess.dll
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.pdb
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\OpenUp.DataAccess.genruntimeconfig.cache
+F:\C#\OpenUp\OpenUp.DataAccess\obj\Debug\net7.0\ref\OpenUp.DataAccess.dll

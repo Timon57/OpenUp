@@ -1,0 +1,14 @@
+F:\C#\OpenUp\OpenUp.Models\bin\Debug\net7.0\OpenUp.Models.deps.json
+F:\C#\OpenUp\OpenUp.Models\bin\Debug\net7.0\OpenUp.Models.dll
+F:\C#\OpenUp\OpenUp.Models\bin\Debug\net7.0\OpenUp.Models.pdb
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\OpenUp.Models.csproj.AssemblyReference.cache
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\OpenUp.Models.GeneratedMSBuildEditorConfig.editorconfig
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\OpenUp.Models.AssemblyInfoInputs.cache
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\OpenUp.Models.AssemblyInfo.cs
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\OpenUp.Models.csproj.CoreCompileInputs.cache
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\OpenUp.Models.dll
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\refint\OpenUp.Models.dll
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\OpenUp.Models.pdb
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\ref\OpenUp.Models.dll
+F:\C#\OpenUp\OpenUp.Models\bin\Debug\net7.0\OpenUp.Models.runtimeconfig.json
+F:\C#\OpenUp\OpenUp.Models\obj\Debug\net7.0\OpenUp.Models.genruntimeconfig.cache
