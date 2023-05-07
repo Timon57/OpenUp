@@ -39,21 +39,46 @@
               </div>
             </li>*@
           </ul>
-          <form class="d-flex">
+           <form class="d-flex mx-5">
             <input class="form-control me-sm-2" type="search" placeholder="Search">
             <button class="btn btn-secondary my-2 my-sm-0" type="submit">Search</button>
           </form>
+           <ul class="navbar-nav ">
+                        @if (User.Identity.IsAuthenticated)
+                        {
+                            <li class="nav-item dropdown">
+                                <a class="nav-link dropdown-toggle" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                                        @User.Identity.Name
+                                </a>
+                                <ul class="dropdown-menu dropdown-menu-end bg-light" aria-labelledby="navbarDropdown">
+                                    <li class="justify-content-center">
+                                        <form method="post" asp-controller="Account" asp-action="Logout" class="form-inline text-center">
+                                            <button type="submit" class="btn btn-link nav-link">Logout</button>
+                                        </form>
+                                    </li>
+                                </ul>
+                            </li>
+                                
+                        }
+                        else
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link" asp-area="" asp-controller="Account" asp-action="Login">Login</a>
+                            </li>
+                        }
+                    </ul>
+         
         </div>
       </div>
        </nav>
     </header>
     <div class="container">
-        <main role="main" class="pb-3">
+        <main role="main" class="pb-5 mb-2">
             @RenderBody()
         </main>
     </div>
 
-    <footer class="border-top footer text-muted">
+    <footer class="border-top footer text-muted p-3">
         <div class="container">
             &copy; 2023 - OpenUp - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
         </div>

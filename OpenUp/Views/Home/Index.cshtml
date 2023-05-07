@@ -1,8 +1,32 @@
-﻿@{
-    ViewData["Title"] = "Home Page";
+﻿@model IEnumerable<OpenUp.Models.Blog>
+
+@{
+    ViewData["Title"] = "Index";
 }
 
-<div class="text-center">
-    <h1 class="display-4">Welcome</h1>
-    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
-</div>
+    <div class="row">
+        @foreach(var obj in Model)
+        {
+            <div class="col-12 mt-5">
+                <div class="card bg-secondary ">
+                    
+                    <div class="card-body">
+                        <div class="d-flex justify-content-between">
+                            <h2 class="card-title d-inline">@obj.Title</h2>
+                            <div>
+                           <a asp-controller="blog" asp-action="edit" asp-route-id="@obj.Id"><i class="bi bi-pencil-square d-inline-block"></i></a> 
+                           <a asp-controller="blog" asp-action="delete" asp-route-id="@obj.Id"><i class="bi bi-file-earmark-x-fill"></i></a> 
+                            </div>
+                        </div>
+                        <p class="card-text">@obj.Description</p>
+                        
+                    </div>
+                    <div class="card-footer bg-white text-dark">
+                        Posted on <i><small style="font-size:13px;">@obj.CreatedDateTime</small></i> By @obj.Author
+                    </div>
+                </div>
+            </div>
+        }
+    </div>
+
+

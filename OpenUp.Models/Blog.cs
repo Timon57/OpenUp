@@ -1,4 +1,5 @@
-﻿using System.ComponentModel.DataAnnotations;
+﻿using Microsoft.AspNetCore.Mvc.ModelBinding.Validation;
+using System.ComponentModel.DataAnnotations;
 
 namespace OpenUp.Models
 {
@@ -10,7 +11,7 @@ namespace OpenUp.Models
         public string Title { get; set; }
         [Required]
         public string Description { get; set; }
-        [Required]
+        [ValidateNever]
         public string Author { get; set; }  
         public DateTime CreatedDateTime { get; set; } = DateTime.Now;
 

@@ -1,11 +1,15 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Authorization;
+using Microsoft.AspNetCore.Mvc;
 using OpenUp.DataAccess.Data;
 using OpenUp.Models;
+using System.Security.Claims;
 
 namespace OpenUp.Controllers
 {
+    
     public class BlogController : Controller
     {
+
         private readonly AppDbContext _db;
         public BlogController(AppDbContext db)
         {
@@ -13,7 +17,10 @@ namespace OpenUp.Controllers
         }
         public IActionResult Index()
         {
-            IEnumerable<Blog> objBlogList = _db.Blogs;
+
+            string user = User.Identity.Name;
+            IEnumerable<Blog> objBlogList = _db.Blogs.Where(b => b.Author == user);
+            Console.WriteLine("hi"+user);
             return View(objBlogList);
         }
 
@@ -28,8 +35,10 @@ namespace OpenUp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Create(Blog blog)
         {
-            if(ModelState.IsValid)
-            {
+            var authorName = User.Identity.Name;
+            blog.Author = authorName;
+            if (ModelState.IsValid)
+            {                
                 _db.Blogs.Add(blog);
                 _db.SaveChanges();
                 return RedirectToAction("Index");
@@ -55,6 +64,8 @@ namespace OpenUp.Controllers
         [ValidateAntiForgeryToken]
         public IActionResult Edit(Blog blog)
         {
+            var authorName = User.Identity.Name;
+            blog.Author = authorName;
             if (ModelState.IsValid)
             {
                 _db.Blogs.Update(blog);

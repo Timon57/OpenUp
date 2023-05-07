@@ -1,4 +1,5 @@
 ﻿using Microsoft.AspNetCore.Mvc;
+using OpenUp.DataAccess.Data;
 using OpenUp.Models;
 using System.Diagnostics;
 
@@ -8,14 +9,27 @@ namespace OpenUp.Controllers
     {
         private readonly ILogger<HomeController> _logger;
 
-        public HomeController(ILogger<HomeController> logger)
+        private readonly AppDbContext _db;
+        public HomeController(AppDbContext db, ILogger<HomeController> logger)
         {
+            _db = db;
             _logger = logger;
         }
 
+
+        
         public IActionResult Index()
         {
-            return View();
+            
+            string user = User.Identity.Name;
+            IEnumerable<Blog> objBlogList = _db.Blogs.Where(b => b.Author != user);
+            if (User.Identity.IsAuthenticated)
+            {
+                return View(objBlogList);
+
+            }
+
+            return View("~/Views/Account/Login.cshtml");
         }
 
         public IActionResult Privacy()
